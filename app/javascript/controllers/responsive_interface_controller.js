@@ -4,6 +4,7 @@
 const crossLines = document.getElementById('cross1');
 
 if (crossLines) {
+  console.log("It's on!!");
   // Background Darkener
   const bgDarkener = document.querySelector('.bg_darkener');
 

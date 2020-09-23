@@ -1,6 +1,99 @@
 // Specific CSS for your home-page
 .body_cont {
   position: relative;
-  top: 10vh;
+  top: 0;
   bottom: 0;
 }
+
+.home_cont {
+  height: fit-content;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.bg_pic_home {
+  position: relative;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg_pic_home img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg_text_home {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg_text_home h1 {
+  color: $bright;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 58px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0 12vw;
+  text-align: center;
+
+  text-shadow: 1px 1px 1px $black35;
+}
+
+.bg_text_home h2 {
+  color: $bright;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 26px;
+  font-weight: 300;
+
+  padding: 2vh 0;
+
+  text-shadow: 1px 1px 1px $black35;
+}
+
+.white_lining {
+  background-color: $bright;
+
+  height: 2px;
+  width: 18vw;
+
+  border-radius: 5px;
+
+  margin: 3vh 0;
+}
+
+@media screen and (max-width: 600px) {
+  .white_lining {
+    width: 30vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
