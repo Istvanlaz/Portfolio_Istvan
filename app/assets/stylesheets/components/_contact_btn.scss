@@ -1,0 +1,135 @@
+.contact_btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  display: none;
+
+  height: 3rem;
+  width: 3rem;
+  border-radius: 500px;
+
+  font-size: 2em;
+  color: $bright;
+  background-color: $flashRed;
+
+  box-shadow: 0px 0px 5px $black15;
+
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+
+  z-index: 20001;
+}
+
+.cross_line {
+  height: 2px;
+  width: 1rem;
+  border-radius: 3px;
+  background-color: $bright;
+}
+
+.active-contact_btn {
+  background-color: $activeRed;
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+}
+
+.fiche_contact {
+  display: none;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  height: 13rem;
+  width: 13rem;
+  border-radius: 500px 0px 0px 0px;
+
+  background-color: $flashRed;
+
+  z-index: 20000;
+}
+
+.active-fiche_contact {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+.icon_line {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+}
+
+.contact_icon {
+  position: absolute;
+}
+
+.contact_icon img {
+  object-fit: contain;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.contact_icon svg {
+  // object-fit: contain;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.link_svg {
+  fill: $bright !important;
+  &:hover {
+    fill: $bright !important;
+  }
+}
+
+#cross2 {
+  transform: rotate(90deg) translate(-2px, 0px);
+}
+
+#contact1 {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+#contact2 {
+  bottom: 5rem;
+  left: 3rem;
+}
+
+#contact3 {
+  top: 3rem;
+  right: 5rem;
+}
+
+#contact4 {
+  top: 1rem;
+  right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contact_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg_darkener {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+
+    display: none;
+
+    height: 90vh;
+    width: 100vw;
+
+    background-color: $black35;
+
+    z-index: 19999;
+  }
+}
+
