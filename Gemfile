@@ -38,7 +38,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'autoprefixer-rails'
+gem 'autoprefixer-rails', "<= 9.7.4"
 gem 'font-awesome-sass'
 gem 'simple_form'
 
