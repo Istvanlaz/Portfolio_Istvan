@@ -15,6 +15,6 @@ class PagesController < ApplicationController
   end
 
   def download
-    send_file 'public/Lazar_Istvan.pdf', type: 'image/png', status: 202
+    send_file 'public/Lazar_Istvan.pdf', type: 'pdf', status: 202
   end
 end
