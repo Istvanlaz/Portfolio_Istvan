@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'education', to: 'pages#education', as: 'education'
   get 'achievements', to: 'pages#achievements', as: 'achievements'
   get 'contact', to: 'pages#contact', as: 'contact'
+  get 'download', to: 'pages#download', as: 'download'
 end

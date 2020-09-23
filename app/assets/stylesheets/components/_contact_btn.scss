@@ -73,6 +73,19 @@
   width: 1.7rem;
 }
 
+.contact_icon svg {
+  // object-fit: contain;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.link_svg {
+  fill: $bright !important;
+  &:hover {
+    fill: $bright !important;
+  }
+}
+
 #cross2 {
   transform: rotate(90deg) translate(-2px, 0px);
 }
