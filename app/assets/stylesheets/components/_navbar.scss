@@ -1,25 +1,33 @@
 .navbar_portfolio {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: $black;
-  width: 100vw;
+
   height: 10vh;
-  position: fixed;
+  width: 100vw;
+
+  background-color: transparent;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 0;
+
   z-index: 20002;
-  top: 0px;
-  left: 0px;
 }
 
 .navbar-links {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 2vw;
-  width: 100vw;
+
   height: 10vh;
+  width: 100vw;
+
+  text-shadow: 1px 1px 1px $black35;
+
+  padding: 0 2vw;
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
@@ -30,9 +38,10 @@
 
 .navbar-links a {
   color: $bright;
-  text-decoration: none;
-  font-weight: bold;
+
   font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #empty_space {
@@ -41,40 +50,48 @@
 }
 
 .navbar-item :hover{
-  text-decoration: none;
   color: $lightGrey;
-  // opacity: 70%;
+
+  text-decoration: none;
+
   cursor: pointer;
 }
 
 .burger {
   display: none;
+
   cursor: pointer;
 }
 
 .logo {
   display: none;
+
   cursor: pointer;
 }
 
 .logo a {
   color: $bright;
-  text-decoration: none;
-  font-weight: bold;
+
   font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
   .navbar-item :hover{
-    text-decoration: none;
     color: $bright;
+
+    text-decoration: none;
+
     cursor: pointer;
   }
 }
 
 .burger div {
-  width: 25px;
   height: 2px;
-  background-color: $bright;
+  width: 25px;
+
   margin: 5px;
   border-radius: 5px;
+  background-color: $bright;
+
   transition: all 0.3s ease;
 }
 
@@ -85,25 +102,29 @@
   }
 
   .navbar_portfolio {
-    justify-content: space-between;
-    padding: 0 5vw;
     position: fixed;
-    height: 10vh;
     top: 0;
     left: 0;
+
+    justify-content: space-between;
+
+    background-color: transparent;
+
+    height: 10vh;
+    padding: 0 5vw;
   }
 
   .navbar-links {
     position: absolute;
-    right: 0px;
-    top: 10vh;
+    right: 0;
+    top: 0;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     padding: 3vh 1vw;
 
@@ -118,6 +139,7 @@
 
   #name {
     display: none;
+    text-shadow: 1px 1px 1px $black35;
   }
 
   #empty_space {
@@ -127,13 +149,21 @@
 
   .burger {
     display: block;
+
+    background-color: $black45;
+    padding: 2px 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px $black15;
   }
 
   .logo {
     display: block;
+
+    color: $bright;
+
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: $bright;
+    text-shadow: 1px 1px 1px $black35;
   }
 
   .nav-active {

@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
+    return root_path
   end
 
   def about_me
