@@ -10,6 +10,7 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'redis'
 
+gem 'cloudinary', '~> 1.16.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 
