@@ -1,11 +1,11 @@
 // Responsive Interface Controller
 
 // execute JS only if cross1 is present within the loaded page
-  document.addEventListener('turbolinks:load', () => {
+document.addEventListener('turbolinks:load', () => {
   const crossLines = document.getElementById('cross1');
 
   if (crossLines) {
-    console.log("It's on!!");
+    console.log("Looking for something special? If it's for javascript errors, you're out of your league! ;)");
     // Background Darkener
     const bgDarkener = document.querySelector('.bg_darkener');
 

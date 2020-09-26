@@ -11,7 +11,7 @@
 
   font-size: 2em;
   color: $bright;
-  background-color: $flashRed;
+  background-color: $winnerRed;
 
   box-shadow: 0px 0px 5px $black15;
 
@@ -30,7 +30,7 @@
 }
 
 .active-contact_btn {
-  background-color: $activeRed;
+  background-color: $redDark;
   transform: rotate(45deg);
   transition: all 0.3s ease;
 }
@@ -46,7 +46,7 @@
   width: 13rem;
   border-radius: 500px 0px 0px 0px;
 
-  background-color: $flashRed;
+  background-color: $winnerRed;
 
   z-index: 20000;
 }

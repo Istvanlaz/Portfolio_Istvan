@@ -1,0 +1,33 @@
+.intro_newspaper {
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70vh;
+
+  padding: 3vh;
+  background-color: $bright;
+
+  z-index: 3;
+}
+
+.newspaper_sep_line {
+  height: 100%;
+  width: 0.2%;
+  background-color: $black35;
+}
+
+.right_column {
+  height: 100%;
+  width: 49.8%;
+  // background-color: red;
+  padding: 3vh;
+}
+
+.left_column {
+  height: 100%;
+  width: 49.8%;
+  // background-color: green;
+  padding: 3vh;
+}

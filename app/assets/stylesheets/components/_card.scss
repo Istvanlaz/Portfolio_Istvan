@@ -1,0 +1,44 @@
+.info_card {
+  height: fit-content;
+  width: fit-content;
+
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin: 3vh;
+  padding: 5vh 3vw;
+
+  cursor: pointer;
+}
+
+.info_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // height: 10vh;
+  // width: 10vw;
+
+  color: $black;
+
+  text-shadow: none;
+}
+
+.info_txt p {
+  margin-bottom: unset;
+}
+
+.info_image {
+  height: 10vh;
+  width: 10vw;
+}
+
+.info_image img {
+  object-fit: contain;
+  height: 10vh;
+  width: 10vw;
+}
+
+.info_image svg {
+  height: 10vh;
+  width: 10vw;
+}
